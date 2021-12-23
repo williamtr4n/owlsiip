@@ -1,0 +1,24 @@
+header img{
+    object-fit: cover;
+    height: 700px;
+}
+
+.title h1{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(0, 0, 0);
+    background-color: #EEEBDD;
+    font-family: 'Pushster', cursive;
+}
+
+.add-to-cart button {
+    color:#810000;
+    border: 1px solid #810000;
+}
+
+.add-to-cart button:hover {
+    background-color: #810000;
+    color: white;
+}

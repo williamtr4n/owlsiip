@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+.slide-img {
+    position: relative;
+    object-fit: cover;
+    /*object-position: 40% 30%; /* position default 50% 50% */
+    height: 700px;
+    z-index: -1;
+}
+
+.carousel{
+    z-index: 0;
+}
+
+.navbar {
+    width: 100%;
+    z-index: 1;
+    height: 80px;
+    opacity: .8;
+    transition: all .5s ease;
+}
+
+.navbar:hover{
+    opacity: 1;
+}
+
+.nav-item a{
+    font-family: 'Pushster', cursive;
+}
+
+.logo{
+    position: absolute;
+    margin-left: 46%;
+}
+
+.login-logo{
+    margin: auto;
+}
+
+.modal-header h5 {
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Pushster', cursive;
+}
+
+.footer-icon li{
+    transition: all .2s ease-in-out;
+}
+
+.footer-icon li:hover{
+    scale: 1.1;
+}
+
+
